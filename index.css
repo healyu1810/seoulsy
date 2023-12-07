@@ -1,0 +1,160 @@
+*{
+    list-style: none;
+}
+.pl-100{
+    padding-left: 100px;
+}
+.p-100{
+    padding-left: 100px;
+}
+.pl-50{
+    padding-left: 50px;
+}
+.nav-item{
+    font-size: 0.9em;
+    font-weight: 1000;
+}
+.df{
+display: flex
+}
+.h100{
+    height: 100px;
+}
+.h50 {
+    height: 50px;
+}
+.shadow {
+    box-shadow: white;
+}
+.bb{
+    border-bottom: 1px solid gray;
+}
+.navbar-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tjdnftl{
+    background-image: url('img/서울시.png');
+    background-size: cover;
+    background-position: center;
+    padding: 35px 100px;
+}
+.tjdnftl2{
+    background-image: url('img/logo02.png');
+    background-size: contain;
+    background-position: center;
+    width: 125px;
+    height: 75px;
+    background-repeat: no-repeat;
+}
+.skfTl{
+    background-image: url('img/날씨.png');
+    background-size: cover;
+    background-position: center;
+    padding: 35px 130px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.w1000{
+    width: 1000px;
+}
+.search {
+    position: relative;
+    width: 500px;
+  }
+  input {
+    width: 100%;
+    border: 3px solid blue;
+    border-radius: 8px;
+    padding: 10px 12px;
+    font-size: 14px;
+  }
+.searchimg1{
+    position : absolute;
+    width: 25px;
+    top: 50%;
+    right: 35px;
+    margin: 0;
+    transform: translateY(-50%)
+}
+.searchimg2 {
+    position : absolute;
+    width: 20px;
+    top: 50%;
+    right: 12px;
+    margin: 0;
+    transform: translateY(-50%);
+  }
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 700px;
+    overflow: hidden;
+}
+
+#carouselSelc {
+    cursor: pointer;
+}
+
+.carousel_Jinsu {
+    display: flex;
+    justify-content: left;
+}
+#carouselBtn1,#carouselBtn2{
+    height: 175px;
+    margin: 0px;
+    
+}
+.inner4, .inner6, .inner6-2{
+    padding-top: 50px;
+    
+    display: flex;
+    justify-content: space-around;
+}
+.inner4 ul{
+    padding: 0;
+}
+.p_wel{
+    color: orangered;
+}
+.p_traffic{
+    color: #CCFF00;
+}
+.p_cul{
+    color: #9933FF;
+}
+.p_env{
+    color: #33FFCC;
+}
+.p_house{
+    color: #FF0000;
+}
+.p_work{
+    color: cadetblue;
+}
+a{
+    color: black;
+}
+hr{
+    border-color: black;
+}
+h2{
+    font-weight: 900;
+    font-size: 25px;
+}
+.board_area2{
+    display: flex;
+}
+section{
+    padding: 15px
+}
